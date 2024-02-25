@@ -152,7 +152,7 @@ body {
 .slider-wrapper .navigation {
   position: absolute;
   top: 50%;
-  left: 50.5%;
+  left: 50.2%;
   transform: translate(-50%, -50%);
   display: flex;
   width: 95%;
@@ -323,9 +323,11 @@ body {
   0%,
   100% {
     transform: translateY(0);
+    filter: drop-shadow(10px 10px var(--strong));
   }
   50% {
     transform: translateY(30px);
+    filter: drop-shadow(10px 40px var(--strong));
   }
 }
 
