@@ -152,7 +152,7 @@ body {
 .slider-wrapper .navigation {
   position: absolute;
   top: 50%;
-  left: 50.2%;
+  left: 50.5%;
   transform: translate(-50%, -50%);
   display: flex;
   width: 95%;
