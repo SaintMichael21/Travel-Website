@@ -89,13 +89,14 @@ body {
 
 .slider-wrapper {
   margin: 1.5em 3em;
+  width: 95%;
 }
 
 .slider-wrapper .slider {
-  background: var(--bg);
   border-radius: 1em;
   height: 730px;
-  width: 1520px;
+  width: 100%;
+  padding-right: 10px;
 }
 
 .slider-wrapper .slider img {
@@ -151,7 +152,7 @@ body {
 .slider-wrapper .navigation {
   position: absolute;
   top: 50%;
-  left: 50.5%;
+  left: 50.2%;
   transform: translate(-50%, -50%);
   display: flex;
   width: 95%;
