@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar Section Start -->
+    <section class="navbar-wrapper">
+      <div class="navbar">
+        <div class="img-logo">
+          <a href="#"><i data-feather="wind"></i>Travel.</a>
+        </div>
+        <div class="main-function">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#booking">Book</a></li>
+            <li><a href="#box-wrapper">Why Us?</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar Section End -->
+
+    <!-- Slider Section Start -->
+    <section class="slider-wrapper">
+      <div class="tulisan">
+        <h1>You're destination is waiting.</h1>
+        <a href="#booking">Book now</a>
+      </div>
+      <div class="slider">
+        <img src="assets/gambar1.jpg" alt="Foto1.jpg" />
+      </div>
+      <div class="slider">
+        <img src="assets/gambar2.jpg" alt="Foto1.jpg" />
+      </div>
+      <div class="slider">
+        <img src="assets/gambar3.jpg" alt="Foto1.jpg" />
+      </div>
+      <div class="navigation">
+        <a class="btn prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="btn next" onclick="plusSlides(+1)">&#10095;</a>
+      </div>
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- Box Section Start -->
+    <section class="box-wrapper" id="box-wrapper">
+      <div class="container-wrapper">
+        <div class="title">
+          <h1>Why choose us ?</h1>
+        </div>
+        <div class="container-column">
+          <div class="column column1">
+            <div class="header">
+              <i data-feather="check-circle"></i>
+              <h3>Trusted</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+              nemo. Temporibus, maiores. Maiores nisi omnis, magnam voluptatem
+              inventore maxime itaque!
+            </p>
+          </div>
+        </div>
+        <div class="container-column">
+          <div class="column column2">
+            <div class="header">
+              <i data-feather="copy"></i>
+              <h3>Flexible booking options</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+              nemo. Temporibus, maiores. Maiores nisi omnis, magnam voluptatem
+              inventore maxime itaque!
+            </p>
+          </div>
+        </div>
+        <div class="container-column">
+          <div class="column column3">
+            <div class="header">
+              <i data-feather="credit-card"></i>
+              <h3>Secure & convenient payment</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+              nemo. Temporibus, maiores. Maiores nisi omnis, magnam voluptatem
+              inventore maxime itaque!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Box Section End -->
+
+    <!-- Book Section Start -->
+    <section class="booking" id="booking">
+      <h1 class="heading-title">Book your trip!</h1>
+      <from action="" method="post" class="book-form">
+        <div id="input-box" class="flex">
+          <div class="input-box">
+            <span>Name :</span>
+            <input type="text" placeholder="enter your name" name="name" />
+          </div>
+          <div class="input-box">
+            <span>Email :</span>
+            <input type="email" placeholder="enter your email" name="email" />
+          </div>
+          <div class="input-box">
+            <span>Phone :</span>
+            <input
+              type="number"
+              placeholder="enter phone number"
+              name="phone"
+            />
+          </div>
+          <div class="input-box">
+            <span>Address :</span>
+            <input
+              type="text"
+              placeholder="enter your address"
+              name="address"
+            />
+          </div>
+          <div class="input-box">
+            <span>Where to :</span>
+            <input
+              type="text"
+              placeholder="place you want visit"
+              name="location"
+            />
+          </div>
+          <div class="input-box">
+            <span>How many :</span>
+            <input type="number" placeholder="number of guests" name="guests" />
+          </div>
+          <div class="input-box">
+            <span>Arrivals :</span>
+            <input type="date" name="arrivals" />
+          </div>
+          <div class="input-box">
+            <span>Leaving :</span>
+            <input type="date" name="leaving" />
+          </div>
+
+          <input
+            type="submit"
+            value="submit"
+            class="submit-btn"
+            id="submit-btn"
+            name="send"
+          />
+        </div>
+        <img src="assets/gambar4.png" alt="gambar4.jpg" />
+      </from>
+    </section>
+    <!-- Book Section End -->
+
+    <!-- Table Section Start -->
+    <div class="table-wrapper">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Destination</th>
+            <th>Guest</th>
+            <th>Arrival</th>
+            <th>Leaving</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody class="student-list" id="student-list"></tbody>
+      </table>
+    </div>
+    <!-- Table Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <h1>Created by <span>Saint Michael</span> | copyright 2024</h1>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Script Javascript -->
+    <script src="script.js"></script>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
