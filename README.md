@@ -1,4 +1,4 @@
 # Travel-Website
 
-not responsive, first website build by my own
+not responsive, first travel website build by my own
 better open with google chrome
